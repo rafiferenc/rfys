@@ -1,0 +1,284 @@
+a:hover{
+	text-decoration:none;
+}
+button{
+	background:none;
+	border:none;
+}
+table{
+	border: 0px; width: 100%
+}
+.row-no-margin{
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+header{
+	padding:25px 0px;
+	margin-bottom: 30px;
+}
+.form-group--search{
+	max-width:240px;
+	position:relative;
+}
+.search-input{
+	font-size: 13px;
+	border-radius:0px;
+	padding:7px 30px 7px 10px;
+	width:100%;
+}
+.form-group--search button{
+	position:absolute;
+	right:0;
+	top:0px;
+	background:none;
+	border:none;
+	padding:0px 10px;
+	height:35px;
+}
+.restaurant{
+	margin-bottom:30px;
+}
+nav .tabs a{
+	font-weight:bold;
+	text-transform:uppercase;
+	text-align:center;
+	font-size:13px;
+	padding:15px 10px;
+}
+nav .tabs a:last-child{
+	border-right:none;
+}
+.tab-content{
+	padding:15px;
+}
+.titlerating{
+	margin-bottom:25px;
+}
+.titlerating h1{
+	font-weight:bold;
+	margin-bottom:0px;
+}
+.slogan{
+	font-size: 20px;
+}
+.info{
+	margin-bottom:5px;
+}
+.info i{
+	border-radius: 50%;
+	width: 26px;
+	height: 26px;
+}
+.info span{
+	margin-left:5px;
+}
+.fa-map-marker-alt{
+	padding: 5px 7px 5px 7px;
+}
+.fa-mobile-alt{
+	padding: 5px 7px 5px 8px;
+}
+.fa-at, .fa-share-alt, .fa-phone{
+	padding:5px;
+}
+.map{
+	margin-bottom:30px;
+}
+.map-head a{
+	display:block;
+	padding:15px 0px;
+	font-weight: bold;
+	font-size:13px;
+}
+.o-hours{
+	padding:15px;
+	margin-bottom:30px;
+}
+.oh-title{
+	padding-bottom:10px;
+	margin-bottom:15px;
+	font-weight:bold;
+}
+.favorite-btn{
+	padding:10px;
+}
+.fav-btn{
+	width:100%;
+	text-align:center;
+	text-transform:uppercase;
+	padding:10px;
+	border-radius:5px;
+	font-weight:bold;
+	cursor:pointer;
+}
+.fav-btn i{
+	margin-right: 5px;
+}
+.further-rating{
+	padding:10px;
+	margin-bottom:30px;
+}
+.full-avg-rates{
+	font-size:40px;
+}
+.rate-row{
+	margin-bottom:10px;
+}
+.further-rating .col-lg-7 .rate-row:last-child{
+	margin-bottom:0px;
+	border:none;
+}
+.stars{
+	font-size:20px;
+}
+.avg-num{
+	font-size:15px;
+	margin-left:10px;
+}
+.rating .col .stars{
+	margin-top:10px;
+}
+.profile-image{
+	max-width:60px;
+}
+.comments{
+	padding:15px;
+	margin-bottom:30px;
+}
+.write-comment{
+	padding-bottom:15px;
+}
+#new-comment{
+	cursor:pointer;
+}
+.user-rate .avg-num{
+	margin-right:10px;
+	margin-left:0px;
+}
+.username{
+	font-size:20px;
+}
+.comment-time{
+	font-size:12px;
+}
+.comment{
+	padding-top:10px;
+}
+.reaction{
+	padding: 15px 0px 0px 0px;
+	text-align:center;
+	margin-top:10px;
+}
+.reaction i{
+	padding-right:5px;
+}
+#rate1 {
+	font-size: 30px;
+	float:right;
+}	
+.rating .col{
+	text-align:right;
+}
+.stars span i{
+	color:#ccc;
+	margin-right:2px;
+	cursor:pointer;
+}
+@media (max-width: 575px) {
+	.content-wrapper .row > .col-md-7, .content-wrapper .row > .col-md-5{
+		padding-left:0px;
+		padding-right:0px;
+	}
+	.rate-stars{
+		text-align:center;
+	}
+	nav .tabs a {
+		font-size:10px;
+		padding-left:8px;
+		padding-right:8px;
+	}
+	.reaction{
+		font-size: 12px;
+	}
+	.reaction .col i, .reaction .col span{
+		display:block;
+		padding:0;
+	}
+	.user-rate .stars{
+		font-size:17px;
+	}
+}
+@media (min-width: 576px) {
+	.rate-stars{
+		text-align:right;
+	}
+}
+/*@media (min-width: 576px) and (max-width: 767px) { ... }*/
+@media (max-width: 767px) {
+	#rate1 {
+		float: none !important;
+	}
+	.info-list{
+		margin-bottom:15px;
+	}
+	.tab-content .tab-pane:first-child{
+		text-align:center;
+	}
+	.rate-row{
+		text-align:center;
+	}
+	.rating .col .stars{
+		text-align: center;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) { 
+	.titlerating h1 {
+		font-size: 18px !important;
+	}
+	.slogan {
+		font-size: 14px; 
+		text-align: center;
+	}
+	.info-list{
+		text-align:center;
+		margin-bottom:15px;
+	}
+	.reaction .col i, .reaction .col span{
+		display:block;
+		padding:0;
+	}
+}
+@media (max-width: 991px) {
+	.titlerating h1 {
+		font-size: 25px;
+	}
+	nav .tabs a:last-child {
+		flex-basis: inherit;
+	}
+	.full-avg-wrap{
+		margin-bottom:20px;
+		text-align:center;
+	}
+	nav .tabs a:nth-child(4) {
+		border-right:none;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199px) { 
+	nav .tabs a {
+		font-size:11px;
+	}
+	.map-head .col{
+		flex-basis:inherit;
+	}
+	.map-head .col:first-child{
+		border-bottom:1px solid #e4e4e4;
+	}
+}
+@media (max-width: 1199px) {
+	.rate-stars .stars{
+		font-size:14px;
+	}
+}
+/*@media (min-width: 1200px) { ... }*/

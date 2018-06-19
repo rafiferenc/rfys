@@ -1,0 +1,55 @@
+body, .search-input, .fav-btn{
+	background:#f2f2f2;
+}
+header, .bg-white, .restaurant, .o-hours, .map-head, .favorite-btn, .comments, .further-rating{
+	background:#fff;
+}
+.bordered-box, .restaurant, .o-hours, .map{
+	border:1px solid #e4e4e4;
+}
+.search-input{
+	border:1px solid #dadada;
+}
+.form-group--search button, .search-input, .fa-search{
+	color:#a1a1a1 !important;
+}
+nav .tabs, .map-head, .oh-title, .write-comment{
+	border-bottom:1px solid #e4e4e4;
+}
+nav .tabs a{
+	color:#373737;
+	border-right: 1px solid #e4e4e4;
+}
+nav .tabs a:hover, nav .tabs a.active, .reaction .col i, #new-comment i, .map-head a i, .fav-btn, .full-avg-rates, .stars, .avg-num, .rate-base-layer, .stars span i:hover, .rated, .rated i{
+	color:#70b1b5 !important;
+}
+nav .tabs a:last-child{
+	background:#d4e8e9;
+}
+.info i{
+	background: #70b1b5;
+	color: #fff;
+}
+.map-head a{
+	color: #373737;
+}
+.fav-btn{
+	border:1px solid #70b1b5;
+}
+.reaction{
+	border-top:1px solid #e4e4e4;
+}
+
+.map-container{
+	width:100%;
+	height:260px;
+	background:#ccc;
+}
+
+
+
+@media (max-width: 767px) {
+	.rate-row{
+		border-bottom:1px solid #e4e4e4;
+	}
+}
